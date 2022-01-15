@@ -1017,6 +1017,9 @@
     <ClCompile Include="src\world\CShapeEllipsoid.cpp">
       <Filter>world</Filter>
     </ClCompile>
+    <ClCompile Include="src\tools\CToolBetterGripper.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src/collisions/CCollisionAABB.h">
@@ -1433,6 +1436,9 @@
     </ClInclude>
     <ClInclude Include="src\resources\CShaderFong.h">
       <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\CToolBetterGripper.h">
+      <Filter>tools</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

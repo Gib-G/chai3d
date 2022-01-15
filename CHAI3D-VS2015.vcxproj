@@ -576,6 +576,7 @@
     <ClCompile Include="src/world/CShapeTorus.cpp" />
     <ClCompile Include="src/world/CVoxelObject.cpp" />
     <ClCompile Include="src/world/CWorld.cpp" />
+    <ClCompile Include="src\tools\CToolBetterGripper.cpp" />
     <ClCompile Include="src\world\CShapeEllipsoid.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -717,6 +718,7 @@
     <ClInclude Include="src\math\CBezier.h" />
     <ClInclude Include="src\math\CMarchingCubes.h" />
     <ClInclude Include="src\resources\CShaderFong.h" />
+    <ClInclude Include="src\tools\CToolBetterGripper.h" />
     <ClInclude Include="src\world\CShapeEllipsoid.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)/Microsoft.Cpp.targets" />
