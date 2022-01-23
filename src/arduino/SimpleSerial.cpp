@@ -109,13 +109,13 @@ string SimpleSerial::ReadSerialPort(int reply_wait_time) {
 
 			if (ReadFile(io_handler_, inc_msg, 1, &bytes_read, NULL)) {
 
-				if (inc_msg[0] == "{" || began) {
+				if (inc_msg[0] == '{' || began) {
 					began = true;
 
-					if (inc_msg[0] == "}")
+					if (inc_msg[0] == '}')
 						return complete_inc_msg;
 
-					if (inc_msg[0] != "{")
+					if (inc_msg[0] != '{')
 						complete_inc_msg.append(inc_msg, 1);
 				}
 			}
