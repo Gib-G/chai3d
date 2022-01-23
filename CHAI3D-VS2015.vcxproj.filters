@@ -82,6 +82,9 @@
     <Filter Include="external/pugixml">
       <UniqueIdentifier>{53e1d517-1a50-402b-acef-4af0e863981c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="arduino">
+      <UniqueIdentifier>{7b809cce-cc3a-45cf-beec-01ad77926792}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src/collisions/CCollisionAABB.cpp">
@@ -1020,6 +1023,9 @@
     <ClCompile Include="src\tools\CToolBetterGripper.cpp">
       <Filter>tools</Filter>
     </ClCompile>
+    <ClCompile Include="src\arduino\SimpleSerial.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src/collisions/CCollisionAABB.h">
@@ -1439,6 +1445,9 @@
     </ClInclude>
     <ClInclude Include="src\tools\CToolBetterGripper.h">
       <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arduino\SimpleSerial.h">
+      <Filter>arduino</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
